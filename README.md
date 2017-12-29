@@ -22,6 +22,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Splitting the bill among multiple people
+- [X] Changing tip percentage
 
 
 ## Video Walkthrough 
@@ -34,11 +35,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- Choosing color scheme is a hassle sincethere is no option for viewing hex or RGB value
+- Iphone 7 stimulation used old build, which had the bug where inserting a number also inserted a period in front of the value
+
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2017 Peter Phan
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
