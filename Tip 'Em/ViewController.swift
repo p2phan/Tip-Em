@@ -20,8 +20,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.billField.becomeFirstResponder()
+        
+        // Sets the title in the Navigation Bar
+        self.title = "Tip Calculator"
+        let defaults = UserDefaults.standard
+        tipField.text = defaults.string(forKey: "defaultTip") ?? "15"
+        splitField.text = defaults.string(forKey: "defaultSplit") ?? "1"
+        
+        
    
 
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        
+        
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +49,17 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    @IBAction func clearScreen(_ sender: Any) {
+        let defaults = UserDefaults.standard
+        
+        billField.text = ""
+        splitField.text = defaults.string(forKey: "defaultSplit") ?? "1"
+        tipField.text = defaults.string(forKey: "defaultTip") ?? "15"
+        tipLabel.text = "$0.00"
+        totalLabel.text = "$0.00"
+
+        
+    }
     @IBAction func calcTip(_ sender: Any) {
         
         let split = Int(splitField.text!) ?? 1

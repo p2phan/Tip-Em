@@ -14,6 +14,7 @@
 		0C0B9B061FF4FB1100681A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B9B041FF4FB1100681A6D /* LaunchScreen.storyboard */; };
 		0C0B9B111FF4FB1100681A6D /* Tip__EmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B9B101FF4FB1100681A6D /* Tip__EmTests.swift */; };
 		0C0B9B1C1FF4FB1100681A6D /* Tip__EmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B9B1B1FF4FB1100681A6D /* Tip__EmUITests.swift */; };
+		0C0B9B2C1FF9004700681A6D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B9B2B1FF9004700681A6D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0C0B9B171FF4FB1100681A6D /* Tip 'EmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip 'EmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0B9B1B1FF4FB1100681A6D /* Tip__EmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip__EmUITests.swift; sourceTree = "<group>"; };
 		0C0B9B1D1FF4FB1100681A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0B9B2B1FF9004700681A6D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		0C0B9AFA1FF4FB1100681A6D /* Tip 'Em */ = {
 			isa = PBXGroup;
 			children = (
+				0C0B9B2B1FF9004700681A6D /* SettingsViewController.swift */,
 				0C0B9AFB1FF4FB1100681A6D /* AppDelegate.swift */,
 				0C0B9AFD1FF4FB1100681A6D /* ViewController.swift */,
 				0C0B9AFF1FF4FB1100681A6D /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				0C0B9AFE1FF4FB1100681A6D /* ViewController.swift in Sources */,
 				0C0B9AFC1FF4FB1100681A6D /* AppDelegate.swift in Sources */,
+				0C0B9B2C1FF9004700681A6D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
