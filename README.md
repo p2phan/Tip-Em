@@ -13,7 +13,7 @@ The following **required** functionality is complete:
 * [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [X] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -21,22 +21,25 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
+- [X] Settings page to change the default people to split bill.
 - [X] Splitting the bill among multiple people
 - [X] Changing tip percentage
+- [X] Clearing the tip screen with default settings
 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/X0zXZoI.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Igyh8dA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 - Choosing color scheme is a hassle sincethere is no option for viewing hex or RGB value
-- Iphone 7 stimulation used old build, which had the bug where inserting a number also inserted a period in front of the value
+- Iphone 7 stimulation used old build, which had the bug where inserting a number also inserted a period in front of the value, but was fixed by starting stimulation
+- For Settings View Controller, had to create the page outside the folder, then put it in after linking the view controller
 
 
 ## License
